@@ -29,7 +29,7 @@ app.post("/",function(req,res){
     ]
 
   };
-  var jsonData=JSON.stringify(data);
+  var jsonData=JSON.stringify(data);         //converting URL
   const url="https://us6.api.mailchimp.com/3.0/lists/11df6d0ce9";
   const options={
     method:"POST",
